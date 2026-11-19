@@ -11,7 +11,7 @@ caminho_xls = 'censo_1872.xlsx'
 def carregar_dados():
     try:
       
-        df_brasil = pd.read_excel(caminho_xls, sheet_name='Exemplo gráfico Brasil', skiprows=1)
+        df_brasil = pd.read_excel(caminho_xls, skiprows=1)
         df_brasil = df_brasil.drop_duplicates()
         
        
