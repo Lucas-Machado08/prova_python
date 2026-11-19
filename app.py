@@ -5,7 +5,7 @@ import plotly.express as px
 st.set_page_config(page_title="Dashboard - População livre e população escravizada", layout="wide")
 st.title("Dashboard de População livre e população escravizada")
 
-caminho_xls = 'H:\Python\terceira etapa\prova_python(37)\censo_1872.xlsx'
+caminho_xls = 'censo_1872.xlsx'
 
 @st.cache_data
 def carregar_dados():
