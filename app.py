@@ -6,7 +6,7 @@ import plotly.express as px
 st.set_page_config(page_title="Dashboard - População livre e população escravizada", layout="wide")
 st.title("Dashboard de População livre e população escravizada")
 
-df = pd.read_csv("censo_1872.xlsx")
+df = pd.read_excel("censo_1872.xlsx")
 df = df.drop_duplicates()
 
 caminho_xls = 'censo_1872.xlsx'
